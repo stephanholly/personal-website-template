@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stephan's Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><span id="typed"></span></h1>
+      </div>
+      <!-- <div class="tagline">
+        <p>"Do not go gentle into that good night. Rage, rage against the dying of the light."</p>
+      </div> -->
+      <div class= "button">
+        <a href="#info-page"><button type="submit">Find out more...</button></a>
+      </div>
+    </div>
+
+<!-- Info page -->
+    <a name="info-page"><div class="info-page"></a>
+        <div class="about-me">
+            <h1>About me!</h1>
+        </div>
+        <hr>
+        <div class="bio">
+            <p>I was born and raised in Phoenix Arizona. B.S. in Biology from Arizona State. <br>Masters from University of Southern California. <br>Started a company that teaches high school students to code. <br>Been to 25+ countries. Played lacrosse in college/grad school. <br>Big fan of podcasts, audiobooks, and Belgian beers.</p>
+        </div>
+        <div class="prof-pic">
+            <img src="photos/IMG_1647.jpg"/>
+        </div>
+    </div>
+
+  <!-- Javascript   -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="typed.js"></script>
+  <script>
+      $(function(){
+          $("span#typed").typed({
+              strings: ["Steven","Stephen", "Stephan Holly"],
+              typeSpeed: 80,
+
+          });
+      });
+
+  </script>
+
+  </body>
+</html>
